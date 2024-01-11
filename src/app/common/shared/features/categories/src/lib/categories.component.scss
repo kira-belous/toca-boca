@@ -1,0 +1,39 @@
+.category {
+    border-radius: 50px;
+    background: var(--white, #FFF);
+    box-shadow: 0px 9px 35px 0px rgba(0, 0, 0, 0.25);
+    height: 392px;
+    width: 832px;
+    margin: 15px;
+}
+
+img {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+.title-container {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    height: 100px;
+}
+
+.title {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--Black, #000);
+    font-family: Montserrat;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}

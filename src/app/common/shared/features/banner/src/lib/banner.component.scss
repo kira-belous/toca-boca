@@ -1,0 +1,64 @@
+
+h1 {
+    color: var(--Black, #000);
+    font-family: Nerko One;
+    font-size: 112px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 131.9%; /* 147.728px */
+    margin: 0px;
+    text-align: center;
+}
+
+h2 {
+    color: var(--Black, #000);
+    font-family: Montserrat;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 131.9%; /* 84.416px */
+    margin: 0px;
+    text-align: center;
+}
+
+.banner {
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr 515px;
+        grid-template-rows: 1fr;
+    }
+}
+
+.banner__content-img {
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.banner__content-info p {
+    color: var(--Black, #000);
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 142.9%; /* 68.592px */
+}
+
+.banner__content-info button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    width: 282px;
+    height: 83px;
+    padding: 26px 85px;
+    border-radius: 65px;
+    background: linear-gradient(99deg, #FFE101 5.28%, #FF5A00 103.61%);
+    box-shadow: 0px 9px 35px 0px #FF9C00;
+    color: var(--Black, #000);
+    font-family: Montserrat;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,0 +1,28 @@
+:host {
+    display: grid;
+    grid-template-columns: 10px repeat(12, 1fr) 10px;
+    grid-template-rows: 56px auto auto auto auto;
+    column-gap: 24px;
+    row-gap: 24px;
+    background-image: linear-gradient(263deg, rgba(255, 225, 1, 0.77) 6.44%, #FF97BE 67.55%), url("http://assets/images/png/bascet.png");
+}
+
+app-menu {
+    grid-column: 2/14;
+    grid-row: 1;
+}
+
+app-banner {
+    grid-column: 2/14;
+    grid-row: 2;
+}
+
+app-categories {
+    grid-column: 2/14;
+    grid-row: 3;
+}
+
+app-footer {
+    grid-column: 2/14;
+    grid-row: 4;
+}
